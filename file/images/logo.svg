@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="fav"
+   inkscape:export-xdpi="88.666389"
+   inkscape:export-ydpi="88.666389"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="340.54601"
+     inkscape:cy="805.92707"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="711"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="179.39678,810.49749"
+       orientation="1,0"
+       id="guide3376"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="179.23828,657.33595"
+       orientation="0,1"
+       id="guide3414"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid30" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff6600;stroke:none;stroke-width:8.30463409"
+       id="rect3374"
+       width="1651.8265"
+       height="637.49994"
+       x="73.17337"
+       y="227.36224"
+       ry="132.51402"
+       inkscape:export-filename="logo_full.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot22"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:ubuntu;-inkscape-font-specification:ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(13.910106,0,0,13.910106,-6550.5749,-2779.1452)"
+       inkscape:export-filename="logo_full.png"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88"><flowRegion
+         id="flowRegion24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu"><rect
+           id="rect26"
+           width="146"
+           height="64.5"
+           x="485.5"
+           y="216.51968"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ubuntu;-inkscape-font-specification:ubuntu" /></flowRegion><flowPara
+         id="flowPara28"
+         style="font-weight:bold">RSTX</flowPara></flowRoot>  </g>
+</svg>
