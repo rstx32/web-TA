@@ -172,11 +172,11 @@
             <h4 class="my-0 font-weight-normal">Paket S</h4>
           </div>
           <div class="card-body">
-            <h2 class="card-title pricing-card-title">Rp. 10.000 <small class="text-muted">/ bln</small></h2>
+            <h2 class="card-title pricing-card-title">Rp. 30.000 <small class="text-muted">/ bln</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>1 GB SSD Storage</li>
-              <li>Unmetered Bandwidth</li>
-              <li>Free Domain</li>
+              <li>1 Core CPU</li>
+              <li>1 GB Ram</li>
+              <li>Free VestaPanel</li>
               <li>Cloudflare CDN</li>
             </ul>
           </div>
@@ -186,11 +186,11 @@
             <h4 class="my-0 font-weight-normal">Paket M</h4>
           </div>
           <div class="card-body">
-            <h2 class="card-title pricing-card-title">Rp. 15.000 <small class="text-muted">/ bln</small></h2>
+            <h2 class="card-title pricing-card-title">Rp. 50.000 <small class="text-muted">/ bln</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>2 GB SSD Storage</li>
-              <li>Unmetered Bandwidth</li>
-              <li>Free Domain</li>
+              <li>2 Core CPU</li>
+              <li>2 GB Ram</li>
+              <li>Free VestaPanel</li>
               <li>Cloudflare CDN</li>
             </ul>
           </div>
@@ -200,11 +200,11 @@
             <h4 class="my-0 font-weight-normal">Paket L</h4>
           </div>
           <div class="card-body">
-            <h2 class="card-title pricing-card-title">Rp. 20.000 <small class="text-muted">/ bln</small></h2>
+            <h2 class="card-title pricing-card-title">Rp. 70.000 <small class="text-muted">/ bln</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>3 GB SSD Storage</li>
-              <li>Unmetered Bandwidth</li>
-              <li>Free Domain</li>
+              <li>3 Core CPU</li>
+              <li>3 GB Ram</li>
+              <li>Free VestaPanel</li>
               <li>Cloudflare CDN</li>
             </ul>
           </div>
@@ -214,11 +214,11 @@
             <h4 class="my-0 font-weight-normal">Paket XL</h4>
           </div>
           <div class="card-body">
-            <h2 class="card-title pricing-card-title">Rp. 25.000 <small class="text-muted">/ bln</small></h2>
+            <h2 class="card-title pricing-card-title">Rp. 100.000 <small class="text-muted">/ bln</small></h2>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>4 GB SSD Storage</li>
-              <li>Unmetered Bandwidth</li>
-              <li>Free Domain</li>
+              <li>4 Core CPU</li>
+              <li>4 GB Ram</li>
+              <li>Free VestaPanel</li>
               <li>Cloudflare CDN</li>
             </ul>
           </div>
@@ -283,22 +283,91 @@
     </div>
 
     <!-- konten 3 -->
-		<div class="container-fluid bg3" id="daftar">
-			<form class="form-signin">
-	      <h1 class="h3 mb-3 font-weight-normal text-center">Form Pendaftaran</h1>
-	      <label for="inputEmail" class="sr-only">Email</label>
-	      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-	      <label for="inputPassword" class="sr-only">Password</label>
-	      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-	      <div class="checkbox mb-3">
-	        <label>
-	          <input type="checkbox" value="remember-me"> Remember me
-	        </label>
-	      </div>
-	      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-	    </form>
+    <div class="container-fluid bg3" id="daftar">
+		<div class="container col-sm-5 bg3">
+        <h4 class="mb-3 text-center display-4">Pendaftaran</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Nama Depan</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Isi Nama Depan Dengan Benar.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Nama Belakang</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                  Isi Nama Belakang Dengan Benar.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                Isi Username.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Opsional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="contoh@contoh.com">
+            <div class="invalid-feedback">
+              Tolong Isi Alamat Email Dengan Benar.
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="layanan">Hosting</label>
+              <select class="custom-select d-block w-100" id="layanan" required>
+                <option value="">-</option>
+                <option>Hosting S</option>
+                <option>Hosting M</option>
+                <option>Hosting L</option>
+                <option>Hosting XL</option>
+              </select>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="vps">VPS</label>
+              <select class="custom-select d-block w-100" id="vps" required>
+                  <option value="">-</option>
+                  <option>VPS S</option>
+                  <option>VPS M</option>
+                  <option>VPS L</option>
+                  <option>VPS XL</option>
+              </select>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="domain">Domain</label>
+                <select class="custom-select d-block w-100" id="domain" required>
+                    <option value="">-</option>
+                    <option>.id</option>
+                    <option>.ac.id</option>
+                    <option>.co.id</option>
+                    <option>.biz.id</option>
+                    <option>.web.id</option>
+                    <option>.sch.id</option>
+                    <option>.or.id</option>
+                    <option>.ponpes.id</option>
+                </select>
+              </div>
+          </div>
+          
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Daftar</button>
+        </form>
+      </div>
     
-    <div class="container testimoni" id="testimoni">
+    <div class="container testimoni col-sm-8" id="testimoni">
       <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
         <img class="mr-3" src="file/images/logo.png" width="48" height="48">
         <div class="lh-100">
@@ -311,42 +380,42 @@
         <div class="media text-muted pt-3">
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#007bff" width="100%" height="100%"/><text fill="#007bff" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@fernanda</strong>
+            cukup memuaskan bagi mahasiswa.
           </p>
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#007bff" width="100%" height="100%"/><text fill="#007bff" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@wira</strong>
+            layanan selalu tersedia.
           </p>
         </div>
         <div class="media text-muted pt-3">
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#e83e8c" width="100%" height="100%"/><text fill="#e83e8c" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@bangkit</strong>
+            harganya relatif murah bagi kantong mahasiswa.
           </p>
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#007bff" width="100%" height="100%"/><text fill="#007bff" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@wahyu</strong>
+            sangat terbantu dengan diskon khusus kampus area semarang.
           </p>
         </div>
         <div class="media text-muted pt-3">
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#6f42c1" width="100%" height="100%"/><text fill="#6f42c1" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@edy</strong>
+            maintenance yang cepat & tanggap.
           </p>
           <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#007bff" width="100%" height="100%"/><text fill="#007bff" dy=".3em" x="50%" y="50%">32x32</text></svg>
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+            <strong class="d-block text-gray-dark">@helmi</strong>
+            akses website dan server cepat.
           </p>
         </div>
       </div>
       </div>
-      </div>
+    </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
